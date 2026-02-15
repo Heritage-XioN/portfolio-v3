@@ -15,16 +15,16 @@ export function Navbar() {
 
           <div className="flex items-center gap-4 border-l border-slate-700 pl-5">
             <a
-              href="https://twitter.com"
+              href="https://x.com/Heritage_X0"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 transition-colors hover:text-white"
-              aria-label="Twitter"
+              aria-label="X formally Twitter"
             >
               <FaXTwitter size={15} />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Heritage-XioN"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 transition-colors hover:text-white"
@@ -32,12 +32,12 @@ export function Navbar() {
             >
               <FaGithub size={15} />
             </a>
-            <button
+            {/* <button
               className="text-slate-400 transition-colors hover:text-white"
               aria-label="Toggle theme"
             >
               <SunMoon size={15} />
-            </button>
+            </button> */}
           </div>
         </div>
       </nav>

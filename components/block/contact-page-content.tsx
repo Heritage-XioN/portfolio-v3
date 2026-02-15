@@ -19,16 +19,16 @@ export function ContactPageContent() {
         <p>
           You can reach me out anytime at{" "}
           <a
-            href="mailto:hello@hudovich.dev"
+            href="mailto:xheriage2001@outlook.com"
             className="font-bold text-white underline underline-offset-4 transition-colors hover:text-amber-500"
           >
-            hello@hudovich.dev
+            xheriage2001@outlook.com
           </a>
         </p>
         <p>
           As a backup option, you can{" "}
           <a
-            href="https://twitter.com"
+            href="https://x.com/Heritage_X0"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-white underline underline-offset-4 transition-colors hover:text-amber-500"

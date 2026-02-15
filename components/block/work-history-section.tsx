@@ -1,100 +1,93 @@
-import { TimelineItem } from "@/components/ui/timeline-item";
+import { TimelineItem } from '@/components/ui/timeline-item';
 
 const workHistory = [
-  {
-    title: "Lead Front-end Engineer",
-    company: "Propbar",
-    flag: "🇬🇧",
-    location: "United Kingdom",
-    type: "Full-Time",
-    dateRange: "Mar 2023 - Present",
-    bullets: [
-      "Led the front-end work from the project inception.",
-      "Maintained a browser extension, widget and web application as a monorepo.",
-      "Architected a highly complex real-estate map service.",
-      "Implemented a sophisticated data grid of property comparables.",
-    ],
-  },
-  {
-    title: "Senior Front-end Engineer",
-    company: "LolaDB",
-    flag: "🇺🇸",
-    location: "United States",
-    type: "Contract",
-    dateRange: "Jun 2022 - Feb 2023",
-    bullets: [
-      "Was solving complex problems using the latest Web Standards.",
-      "Architected the product's front-end structure.",
-      "Accomplished the development of sophisticated UI components.",
-      "Developed the open-source component library.",
-      "Crafted responsive marketing landing pages.",
-    ],
-  },
-  {
-    title: "Senior Front-end Engineer",
-    company: "Casago",
-    flag: "🇺🇸",
-    location: "United States",
-    type: "Full-Time",
-    dateRange: "Oct 2021 - Apr 2022",
-    bullets: [
-      "Joined the new company after Nokori's acquisition.",
-      "Helped to adapt and embed the new assets into the franchise ecosystem.",
-      "Developed the ground for the new property analytics project.",
-    ],
-  },
-  {
-    title: "Middle Front-end Engineer",
-    company: "Nokori",
-    flag: "🇺🇸",
-    location: "United States",
-    type: "Full-time",
-    dateRange: "Jul 2020 - Oct 2021",
-    bullets: [
-      "Acted as a primary and sole front-end developer of the team.",
-      "Was responsible for the development of the single-page application.",
-      "Worked on responsive static marketing pages.",
-      "Managed the migration from Vue 2 codebase to Vue 3 and Composition API.",
-    ],
-  },
-  {
-    title: "Front-end Developer",
-    company: "Freelance Platforms",
-    flag: "🌐",
-    location: "Worldwide",
-    type: "",
-    dateRange: "Jan 2015 - Jul 2020",
-    bullets: [
-      "Kick-started my developing career as a PSD-to-HTML developer.",
-      "Helped dozens of clients around the world to build and deploy their websites.",
-      "Worked hard to meet client deadlines.",
-      "Matured as a self-taught front-end engineer.",
-    ],
-  },
+	{
+		title: 'Software Engineer',
+		company: 'notiq',
+		flag: '🇳🇬',
+		location: 'Nigeria',
+		type: 'project',
+		dateRange: 'Jan 2025 - Present',
+		bullets: [
+			'built a production ready backend utility package/library.',
+			'features include metrics monitoring and alerting, message queue background worker and cron like scheduler.',
+			'built with python, redis, celery, prometheus, etc.',
+		],
+	},
+	{
+		title: 'Software Engineer',
+		company: 'metadata-scrubber',
+		flag: '🇳🇬',
+		location: 'Nigeria',
+		type: 'project',
+		dateRange: 'Dec 2025 - Jan 2026',
+		bullets: [
+			'designed and implemented a CLI based metadata scrubber.',
+			'built with typer, python, pillow, rich etc.',
+			'capabilities include office documents metadata scrubbing, jpg and png metadata scrubbing, and pdf metadata scrubbing.',
+		],
+	},
+	{
+		title: 'Front-end Engineer',
+		company: 'Knowla',
+		flag: '🇳🇬',
+		location: 'Nigeria',
+		type: 'intern',
+		dateRange: 'Jan 2026 - Present',
+		bullets: [
+			'main front-end developer on the team, responsible for the development of the main site, and web application as a single codebase.',
+			'built a production ready super admin dashboard for the company.',
+			'Implemented video streaming functionality for the web application.',
+		],
+	},
+	{
+		title: 'Frontend group team lead',
+		company: 'Skillupimo',
+		flag: '🇳🇬',
+		location: 'Nigeria',
+		type: 'competition',
+		dateRange: 'Nov 2024 - Dec 2024',
+		bullets: [
+			'Spearheaded the front-end design and architectural planning for a student-focused group-buying web platform',
+			'Led a team of 4-5 developers in translating UI/UX mockups into a functional HTML/JS web application',
+			'Implemented core user features including product listing, cart management, and a group formation dashboard',
+			'Used HTML, JavaScript, CSS, and Git for version control',
+		],
+	},
 ];
 
 export function WorkHistorySection() {
-  return (
-    <section className="py-8">
-      <h2 className="text-xl font-bold text-white">Work History</h2>
+	return (
+		<section className='py-8'>
+			<h2 className='text-xl font-bold text-white'>Projects & Work History</h2>
 
-      <p className="mt-3 text-sm leading-relaxed text-slate-400">
-        Below you will find a summary of my past employment experience.
-        Additionally, if you require, you can{" "}
-        <a
-          href="#"
-          className="font-bold text-white underline underline-offset-4 transition-colors hover:text-amber-500"
-        >
-          download my resume
-        </a>{" "}
-        📄.
-      </p>
+			<p className='mt-3 text-sm leading-relaxed text-slate-400'>
+				Below you will find a summary of my projects and past employment
+				experience. Additionally, if you require, you can{' '}
+				<a
+					href='#'
+					className='font-bold text-white underline underline-offset-4 transition-colors hover:text-amber-500'
+					download
+				>
+					download my resume
+				</a>{' '}
+				📄 or visit my{' '}
+				<a
+					href='https://github.com/Heritage-XioN'
+					target='_blank'
+					rel='noopener noreferrer'
+					className='font-bold text-white underline underline-offset-4 transition-colors hover:text-amber-500'
+				>
+					GitHub profile
+				</a>
+				{` `}for my projects.
+			</p>
 
-      <div className="mt-10 space-y-10">
-        {workHistory.map((entry, i) => (
-          <TimelineItem key={i} {...entry} />
-        ))}
-      </div>
-    </section>
-  );
+			<div className='mt-10 space-y-10'>
+				{workHistory.map((entry, i) => (
+					<TimelineItem key={i} {...entry} />
+				))}
+			</div>
+		</section>
+	);
 }

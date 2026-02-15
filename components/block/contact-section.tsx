@@ -6,10 +6,10 @@ export function ContactSection() {
       <p className="mt-2 text-sm text-slate-400 md:text-base">
         You can reach me out anytime at{" "}
         <a
-          href="mailto:hello@hudovich.dev"
+          href="mailto:xheriage2001@outlook.com"
           className="font-semibold text-white underline underline-offset-4 transition-colors hover:text-amber-500"
         >
-          hello@hudovich.dev
+          xheriage2001@outlook.com
         </a>
       </p>
     </section>

@@ -14,12 +14,12 @@ export function SocialSection() {
 
       <div className="mt-4 flex flex-wrap gap-x-6 gap-y-3">
         <SocialLink
-          href="https://twitter.com"
+          href="https://x.com/Heritage_X0"
           icon={<FaXTwitter />}
           label="Twitter"
         />
         <SocialLink
-          href="https://github.com"
+          href="https://github.com/Heritage-XioN"
           icon={<FaGithub />}
           label="GitHub"
         />
@@ -29,12 +29,12 @@ export function SocialSection() {
           label="Reddit"
         />
         <SocialLink
-          href="https://linkedin.com"
+          href="https://linkedin.com/heritage-iyoke"
           icon={<FaLinkedinIn />}
           label="LinkedIn"
         />
         <SocialLink
-          href="https://upwork.com"
+          href="https://www.upwork.com/freelancers/~011d7f73241fdb1961"
           icon={<SiUpwork />}
           label="Upwork"
         />
