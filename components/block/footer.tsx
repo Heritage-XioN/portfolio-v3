@@ -3,7 +3,7 @@ import { Snowflake, Flag } from 'lucide-react';
 export function Footer() {
 	return (
 		<footer className='mt-auto border-t border-slate-800/60'>
-			<div className='mx-auto flex max-w-5xl items-center justify-between px-6 py-5'>
+			<div className='mx-auto flex max-w-5xl flex-wrap gap-y-4 items-center justify-between px-6 py-5'>
 				<p className='text-sm text-slate-500'>
 					design inspired by{' '}
 					<a
